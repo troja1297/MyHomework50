@@ -1,0 +1,30 @@
+[
+  {
+    "Id": 1,
+    "User": "Vlad1",
+    "Addres": "6-54-32",
+    "ContactPhone": "055245567",
+    "PhoneId": 1
+  },
+  {
+    "Id": 2,
+    "User": "Vlad2",
+    "Addres": "6-54-32",
+    "ContactPhone": "055245567",
+    "PhoneId": 2
+  },
+  {
+    "Id": 3,
+    "User": "Vlad3",
+    "Addres": "6-54-32",
+    "ContactPhone": "055245567",
+    "PhoneId": 3
+  },
+  {
+    "Id": 4,
+    "User": "Vlad4",
+    "Addres": "6-54-32",
+    "ContactPhone": "055245567",
+    "PhoneId": 3
+  }
+]

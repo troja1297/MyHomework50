@@ -1,0 +1,54 @@
+﻿@model IEnumerable<Phone>
+
+@{
+    ViewData["Title"] = "Телефоны";
+
+}
+
+<h2>Телефоны</h2>
+
+<p>
+    <a asp-action="Create">Создать</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Company)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CategoryId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Company)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryId)
+            </td>
+            <td>
+                <a asp-action="Link" asp-route-name="@item.Company">Перейти на сайт производителя</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Сведения о телефоне</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Удалить телефон</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

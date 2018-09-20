@@ -1,0 +1,43 @@
+﻿@model MyFirstMVC.Models.Phone
+
+@{
+    ViewData["Title"] = $"Удаление телефона {Model.Name}";
+}
+
+<h3>@($"Вы уверены, что хотите удалить телефон {Model.Name}")</h3>
+<div>
+    <h4>Phone</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Company)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Company)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CategoryId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CategoryId)
+        </dd>
+    </dl>
+    
+    <form asp-action="DeletePhone">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Удалить" class="btn btn-default" /> |
+        <a asp-action="Index">Назад к списку телефонов</a>
+    </form>
+</div>

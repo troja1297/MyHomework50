@@ -1,0 +1,40 @@
+[
+  {
+    "PhoneId": 1,
+    "StockId": 2,
+    "Quantity": 4
+  },
+
+  {
+    "PhoneId": 2,
+    "StockId": 1,
+    "Quantity": 3
+  },
+
+  {
+    "PhoneId": 3,
+    "StockId": 3
+  },
+
+  {
+    "PhoneId": 4,
+    "StockId": 2
+  },
+
+  {
+    "PhoneId": 5,
+    "StockId": 3,
+    "Quantity": 2
+  },
+
+  {
+    "PhoneId": 6,
+    "StockId": 1
+  },
+
+  {
+    "PhoneId": 7,
+    "StockId": 2,
+    "Quantity": 16
+  }
+]

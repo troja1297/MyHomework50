@@ -1,0 +1,65 @@
+[
+  {
+    "Id": 1,
+    "Name": "Galaxy S7",
+    "Company": "Samsung",
+    "Price": 400,
+    "CategoryId": 1
+  },
+
+  {
+    "Id": 2,
+    "Name": "Galaxy S8-",
+    "Company": "Samsung",
+    "Price": 500,
+    "CategoryId": 2
+  },
+
+  {
+    "Id": 3,
+    "Name": "Galaxy S9+",
+    "Company": "Samsung",
+    "Price": 600,
+    "CategoryId": 3
+  },
+
+  {
+    "Id": 4,
+    "Name": "Galaxy S10+",
+    "Company": "Samsung",
+    "Price": 700,
+    "CategoryId": 4
+  },
+  
+  {
+    "Id": 5,
+    "Name": "Galaxy S7-",
+    "Company": "Samsung",
+    "Price": 400,
+    "CategoryId": 1
+  },
+
+  {
+    "Id": 6,
+    "Name": "Galaxy S8+",
+    "Company": "Samsung",
+    "Price": 500,
+    "CategoryId": 2
+  },
+
+  {
+    "Id": 7,
+    "Name": "Galaxy S9+",
+    "Company": "Samsung",
+    "Price": 600,
+    "CategoryId": 3
+  },
+
+  {
+    "Id": 8,
+    "Name": "Galaxy S10++",
+    "Company": "Samsung",
+    "Price": 700,
+    "CategoryId": 4
+  }
+]
