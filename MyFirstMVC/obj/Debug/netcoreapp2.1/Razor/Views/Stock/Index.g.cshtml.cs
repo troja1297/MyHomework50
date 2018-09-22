@@ -65,7 +65,7 @@ using MyFirstMVC.Models;
             WriteLiteral("\n<h2>Склады</h2>\n\n<p>\n    ");
             EndContext();
             BeginContext(92, 34, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f4ff76d346d84f5f92fdd2d62e35a62f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20c575524e844c769d21f7603ca9dc28", async() => {
                 BeginContext(115, 7, true);
                 WriteLiteral("Создать");
                 EndContext();
@@ -118,7 +118,7 @@ using MyFirstMVC.Models;
             WriteLiteral("                ");
             EndContext();
             BeginContext(550, 58, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9a7f7bc5398b4c9e945bb1fbb1b01770", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "032f6bcaaff54ac9af91fc55b24e4eb2", async() => {
                 BeginContext(598, 6, true);
                 WriteLiteral("Детали");
                 EndContext();
@@ -153,7 +153,7 @@ using MyFirstMVC.Models;
             WriteLiteral(" |\n                ");
             EndContext();
             BeginContext(627, 58, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3508d4002fc042e68aba89d54e46747d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d335716dd82345d69edc315700c3dc47", async() => {
                 BeginContext(674, 7, true);
                 WriteLiteral("Удалить");
                 EndContext();

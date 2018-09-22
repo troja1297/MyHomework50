@@ -13,7 +13,7 @@ namespace MyFirstMVC.Models
         public string Name { get; set; }
         [Display(Name = "Компания-производитель")]
         public string Company { get; set; }
-        [Display(Name = "Цена")]
+        [Display(Name = "Цена в долларах")]
         public double Price { get; set; }
 
         public int CategoryId { get; set; }

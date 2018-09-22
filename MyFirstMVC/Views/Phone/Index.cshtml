@@ -1,8 +1,8 @@
-﻿@model IEnumerable<Phone>
+﻿@model MainModelForPhone
+
 
 @{
     ViewData["Title"] = "Телефоны";
-
 }
 
 <h2>Телефоны</h2>
@@ -14,22 +14,28 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Name)
+                @Html.DisplayNameFor(model => model.Phone.GetEnumerator().Current.Name)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Company)
+                @Html.DisplayNameFor(model => model.Phone.GetEnumerator().Current.Company)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Price)
+                @Html.DisplayNameFor(model => model.Phone.GetEnumerator().Current.Price)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.CategoryId)
+                Рубли
+            </th>
+            <th>
+                Сомы
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Phone.GetEnumerator().Current.CategoryId)
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
+@foreach (var item in Model.Phone) {
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.Name)
@@ -39,6 +45,26 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @foreach (var iteminner in Model.Currencies)
+                {
+                    if (iteminner.Id == 1)
+                    {
+                        double a = item.Price * iteminner.CurrencyRate;
+                        @Html.DisplayFor(modelItem => a)
+                    }
+                }
+            </td>
+            <td>
+                @foreach (var iteminner in Model.Currencies)
+                {
+                    if (iteminner.Id == 2)
+                    {
+                        double a = item.Price * iteminner.CurrencyRate;
+                        @Html.DisplayFor(modelItem => a)
+                    }
+                }
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.CategoryId)

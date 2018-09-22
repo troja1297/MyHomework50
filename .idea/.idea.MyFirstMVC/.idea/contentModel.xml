@@ -24,6 +24,7 @@
           <e p="Category.cs" t="Include" />
           <e p="Currencies.cs" t="Include" />
           <e p="ErrorViewModel.cs" t="Include" />
+          <e p="MainModelForPhone.cs" t="Include" />
           <e p="Order.cs" t="Include" />
           <e p="Phone.cs" t="Include" />
           <e p="PhoneOnStock.cs" t="Include" />

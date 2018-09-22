@@ -24,7 +24,9 @@ namespace MyFirstMVC.Controllers
         public ActionResult Index()
         {
             IEnumerable<Phone> phones = context.Phones.OrderBy(p => p.Name);
-            return View(phones);
+            IEnumerable<Currencies> currencies = context.Currencieses.OrderBy(p => p.CurrencyRate);
+            MainModelForPhone modelForPhone = new MainModelForPhone() {Phone = phones, Currencies = currencies};
+            return View(modelForPhone);
         }
 
         // GET: Phone/Details/5
