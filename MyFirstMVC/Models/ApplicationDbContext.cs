@@ -12,6 +12,7 @@ namespace MyFirstMVC.Models
     {
         public DbSet<Phone> Phones { get; set; }
         public DbSet<Order> Orders { get; set; }
+        public DbSet<Currencies> Currencieses { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Stock> Stocks { get; set; }
         public DbSet<PhoneOnStock> PhonesOnStocks { get; set; }
@@ -74,6 +75,8 @@ namespace MyFirstMVC.Models
                 .WithMany(p => p.PhoneOnStocks)
                 .HasForeignKey(p => p.StockId);
             
+            modelBuilder.Entity<Currencies>()
+                .HasData(JsonConvert.DeserializeObject<Currencies[]>(File.ReadAllText("Seed/currencies.json")));
             
             modelBuilder.Entity<Order>()
                 .HasData(JsonConvert.DeserializeObject<Order[]>(File.ReadAllText("Seed/orders.json")));

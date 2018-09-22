@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/home/vandreev/RiderProjects/phonesstore/MyFirstMVC/MyFirstMVC/MyFirstMVC.csproj",
+    "projectUniqueName": "/home/vandreev/RiderProjects/MyHomework50/MyFirstMVC/MyFirstMVC.csproj",
     "projectName": "MyFirstMVC",
-    "projectPath": "/home/vandreev/RiderProjects/phonesstore/MyFirstMVC/MyFirstMVC/MyFirstMVC.csproj",
-    "outputPath": "/home/vandreev/RiderProjects/phonesstore/MyFirstMVC/MyFirstMVC/obj/",
+    "projectPath": "/home/vandreev/RiderProjects/MyHomework50/MyFirstMVC/MyFirstMVC.csproj",
+    "outputPath": "/home/vandreev/RiderProjects/MyHomework50/MyFirstMVC/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/share/dotnet/sdk/NuGetFallbackFolder"

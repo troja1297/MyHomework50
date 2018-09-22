@@ -43,6 +43,28 @@ namespace MyFirstMVC.Migrations
                     );
                 });
 
+            modelBuilder.Entity("MyFirstMVC.Models.Currencies", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("CurrencyCode");
+
+                    b.Property<string>("CurrencyName");
+
+                    b.Property<double>("CurrencyRate");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Currencieses");
+
+                    b.HasData(
+                        new { Id = 1, CurrencyCode = "RUB", CurrencyName = "Рубль", CurrencyRate = 57.0 },
+                        new { Id = 2, CurrencyCode = "KGS", CurrencyName = "Сом", CurrencyRate = 68.0 }
+                    );
+                });
+
             modelBuilder.Entity("MyFirstMVC.Models.Order", b =>
                 {
                     b.Property<int>("Id")

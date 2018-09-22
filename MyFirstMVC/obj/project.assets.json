@@ -12224,17 +12224,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/vandreev/RiderProjects/phonesstore/MyFirstMVC/MyFirstMVC/MyFirstMVC.csproj",
+      "projectUniqueName": "/home/vandreev/RiderProjects/MyHomework50/MyFirstMVC/MyFirstMVC.csproj",
       "projectName": "MyFirstMVC",
-      "projectPath": "/home/vandreev/RiderProjects/phonesstore/MyFirstMVC/MyFirstMVC/MyFirstMVC.csproj",
+      "projectPath": "/home/vandreev/RiderProjects/MyHomework50/MyFirstMVC/MyFirstMVC.csproj",
       "packagesPath": "/home/vandreev/.nuget/packages/",
-      "outputPath": "/home/vandreev/RiderProjects/phonesstore/MyFirstMVC/MyFirstMVC/obj/",
+      "outputPath": "/home/vandreev/RiderProjects/MyHomework50/MyFirstMVC/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/vandreev/.config/NuGet/NuGet.Config"
+        "/home/vandreev/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
@@ -12263,7 +12263,6 @@
             "autoReferenced": true
           },
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
